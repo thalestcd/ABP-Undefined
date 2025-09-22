@@ -93,13 +93,14 @@ Contato
 | RF08.4                  | Incluir mapa de localização do laboratório dentro do INPE. |
 
 ⚙️ **Requisitos Não Funcionais**
-Código	Descrição
-RNF01	O site deve ser totalmente responsivo (celulares, tablets e computadores).
-RNF02	O conteúdo deve ser fácil de atualizar pelos integrantes do laboratório.
-RNF03	O site deve carregar rapidamente (imagens otimizadas).
-RNF04	Deve ter versão em português e inglês.
-RNF05	O site deve ser hospedado em serviço confiável e com domínio próprio.
-RNF06	Identidade visual a definir em conjunto com o laboratório.
+| **Código do Requisito** | **Descrição** |
+|-------------------------|---------------|
+| **RNF01**                | O site deve ser totalmente responsivo (celulares, tablets e computadores). |
+| **RNF02**                | O conteúdo deve ser fácil de atualizar pelos integrantes do laboratório. |
+| **RNF03**                | O site deve carregar rapidamente (imagens otimizadas). |
+| **RNF04**                | Deve ter versão em português e inglês. |
+| **RNF05**                | O site deve ser hospedado em serviço confiável e com domínio próprio. |
+| **RNF06**                | Identidade visual a definir em conjunto com o laboratório. |
 
 🚀 **Status do Projeto**
 🔄 **Em desenvolvimento.**
