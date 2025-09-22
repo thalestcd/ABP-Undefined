@@ -60,36 +60,38 @@ Contato
 
 📑 **Requisitos**
 ✅ **Requisitos Funcionais**
-Código	Descrição
-RF01 – Página Inicial (Home)	
+Código do requisito	Descrição
+RF01	 Página Inicial (Home)
 RF01.1	Apresentar botões/menus de navegação para todas as páginas do site.
 RF01.2	Exibir seções em destaque (cards) com chamadas para notícias, projetos, publicações ou outras atualizações.
 RF01.3	Link para redes sociais e contato no final da página.
 RF01.4	Incluir colaboradores e financiadores (CNPq, CAPES, FAPESP).
-RF02 – Página Sobre o AgriRS	
+RF02	 Página Sobre o AgriRS
 RF02.1	Descrever o laboratório, objetivo e foco.
 RF02.2	Descrever as áreas de atuação com pequenos textos explicativos.
-RF03 – Página de Membros (Equipe)	
+RF03	Página de Membros (Equipe)
 RF03.1	Listar todos os integrantes com nome, foto, função e breve descrição.
 RF03.2	Categorizar por tipo de membro (titulares, colaboradores, bolsistas, doutorado, mestrado e ex-membros).
 RF03.3	Ordenar cada categoria por ordem alfabética.
-RF04 – Página de Vagas (Oportunidades)	
+RF04	Página de Vagas (Oportunidades)
 RF04.1	Listar oportunidades como estágios, IC, pós-graduação e parcerias.
 RF04.2	Informar como se candidatar (documentos, critérios, prazos etc.).
-RF05 – Página de Projetos	
+RF05	Página de Projetos
 RF05.1	Listar projetos com título, resumo, ano de início, status e equipe envolvida.
 RF05.2	Permitir a inclusão de imagens ou links para mais informações.
-RF06 – Página de Notícias	
+RF06	Página de Notícias
 RF06.1	Publicar notícias com título, data, imagem e texto.
 RF06.2	Organizar notícias cronologicamente.
-RF07 – Página de Publicações	
+RF07	 Página de Publicações
 RF07.1	Listar artigos, livros, capítulos etc., com título, revista, autores, ano e link.
 RF07.2	Campo de pesquisa por palavra-chave.
-RF08 – Página de Contato	
+RF08	Página de Contato
 RF08.1	Formulário com nome, e-mail, assunto e mensagem, redirecionando para o e-mail do AgriRS Lab.
 RF08.2	Exibir informações institucionais (telefone, e-mail e endereço).
 RF08.3	Incluir links para redes sociais do laboratório.
 RF08.4	Incluir mapa de localização do laboratório dentro do INPE.
+<img width="947" height="602" alt="image" src="https://github.com/user-attachments/assets/18a1d071-3490-4107-bd26-1ec42f3fc3b4" />
+
 ⚙️ **Requisitos Não Funcionais**
 Código	Descrição
 RNF01	O site deve ser totalmente responsivo (celulares, tablets e computadores).
