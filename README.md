@@ -55,6 +55,7 @@ RNF03	O site deve carregar rapidamente (imagens otimizadas).
 RNF04	Deve ter versão em português e inglês.
 RNF05	O site deve ser hospedado em serviço confiável e com domínio próprio.
 RNF06	Identidade visual a definir em conjunto com o laboratório.
+
 🚀 Status do Projeto 🔄 Em desenvolvimento. Acompanhe os commits para ver o progresso e as novas funcionalidades adicionadas.
 
 📜 Licença Este projeto é de caráter acadêmico e institucional, vinculado ao INPE. Consulte as diretrizes do laboratório antes de reutilizar ou redistribuir este conteúdo.
