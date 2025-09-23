@@ -154,7 +154,7 @@ RNF06	Identidade visual a definir em conjunto com o laboratório.
         <td>Notícias</td>
         <td>3</td>
         <td>Ronaldo</td>
-        <td>✔</td>
+        <td>✔(Pag. de Notícias atualizada)</td>
         <td><a href="https://www.figma.com/design/2N7zSpm5xo2rUtcfgw2qbS/Tela-Inicio?node-id=0-1&p=f&t=SrGNEzFyTJh1DmLr-0">Link</a></td>
         <td></td>
       </tr>
