@@ -14,48 +14,67 @@ AgriRS Lab – Laboratório de Sensoriamento Remoto Agrícola (INPE) Este projet
 
 📂 Estrutura Prevista do Site Home Sobre O AgriRS Equipe Colaboradores Oportunidades Atuação Áreas de Pesquisa Projetos Publicações Notícias Contato
 
-📑 Requisitos ✅ Requisitos Funcionais
+📑 Requisitos
 
-Código do Requisito	Descrição
-RF01	Página Inicial (Home)
-RF01.1	Apresentar botões/menus de navegação para todas as páginas do site.
-RF01.2	Exibir seções em destaque (cards) com chamadas para notícias, projetos, publicações ou outras atualizações.
-RF01.3	Link para redes sociais e contato no final da página.
-RF01.4	Incluir colaboradores e financiadores (CNPq, CAPES, FAPESP).
-RF02	Página Sobre o AgriRS
-RF02.1	Descrever o laboratório, objetivo e foco.
-RF02.2	Descrever as áreas de atuação com pequenos textos explicativos.
-RF03	Página de Membros (Equipe)
-RF03.1	Listar todos os integrantes com nome, foto, função e breve descrição.
-RF03.2	Categorizar por tipo de membro (titulares, colaboradores, bolsistas, doutorado, mestrado e ex-membros).
-RF03.3	Ordenar cada categoria por ordem alfabética.
-RF04	Página de Vagas (Oportunidades)
-RF04.1	Listar oportunidades como estágios, IC, pós-graduação e parcerias.
-RF04.2	Informar como se candidatar (documentos, critérios, prazos etc.).
-RF05	Página de Projetos
-RF05.1	Listar projetos com título, resumo, ano de início, status e equipe envolvida.
-RF05.2	Permitir a inclusão de imagens ou links para mais informações.
-RF06	Página de Notícias
-RF06.1	Publicar notícias com título, data, imagem e texto.
-RF06.2	Organizar notícias cronologicamente.
-RF07	Página de Publicações
-RF07.1	Listar artigos, livros, capítulos etc., com título, revista, autores, ano e link.
-RF07.2	Campo de pesquisa por palavra-chave.
-RF08	Página de Contato
-RF08.1	Formulário com nome, e-mail, assunto e mensagem, redirecionando para o e-mail do AgriRS Lab.
-RF08.2	Exibir informações institucionais (telefone, e-mail e endereço).
-RF08.3	Incluir links para redes sociais do laboratório.
-RF08.4	Incluir mapa de localização do laboratório dentro do INPE.
+✅ Requisitos Funcionais
+
+| **Código do Requisito** | **Descrição** |
+|-------------------------|---------------|
+| **RF01**                | **Página Inicial (Home)** |
+| RF01.1                  | Apresentar botões/menus de navegação para todas as páginas do site. |
+| RF01.2                  | Exibir seções em destaque (cards) com chamadas para notícias, projetos, publicações ou outras atualizações. |
+| RF01.3                  | Link para redes sociais e contato no final da página. |
+| RF01.4                  | Incluir colaboradores e financiadores (CNPq, CAPES, FAPESP). |
+| **RF02**                | **Página Sobre o AgriRS** |
+| RF02.1                  | Descrever o laboratório, objetivo e foco. |
+| RF02.2                  | Descrever as áreas de atuação com pequenos textos explicativos. |
+| **RF03**                | **Página de Membros (Equipe)** |
+| RF03.1                  | Listar todos os integrantes com nome, foto, função e breve descrição. |
+| RF03.2                  | Categorizar por tipo de membro (titulares, colaboradores, bolsistas, doutorado, mestrado e ex-membros). |
+| RF03.3                  | Ordenar cada categoria por ordem alfabética. |
+| **RF04**                | **Página de Vagas (Oportunidades)** |
+| RF04.1                  | Listar oportunidades como estágios, IC, pós-graduação e parcerias. |
+| RF04.2                  | Informar como se candidatar (documentos, critérios, prazos etc.). |
+| **RF05**                | **Página de Projetos** |
+| RF05.1                  | Listar projetos com título, resumo, ano de início, status e equipe envolvida. |
+| RF05.2                  | Permitir a inclusão de imagens ou links para mais informações. |
+| **RF06**                | **Página de Notícias** |
+| RF06.1                  | Publicar notícias com título, data, imagem e texto. |
+| RF06.2                  | Organizar notícias cronologicamente. |
+| **RF07**                | **Página de Publicações** |
+| RF07.1                  | Listar artigos, livros, capítulos etc., com título, revista, autores, ano e link. |
+| RF07.2                  | Campo de pesquisa por palavra-chave. |
+| **RF08**                | **Página de Contato** |
+| RF08.1                  | Formulário com nome, e-mail, assunto e mensagem, redirecionando para o e-mail do AgriRS Lab. |
+| RF08.2                  | Exibir informações institucionais (telefone, e-mail e endereço). |
+| RF08.3                  | Incluir links para redes sociais do laboratório. |
+| RF08.4                  | Incluir mapa de localização do laboratório dentro do INPE. |
+
 ⚙️ Requisitos Não Funcionais
 
-Código do Requisito	Descrição
-RNF01	O site deve ser totalmente responsivo (celulares, tablets e computadores).
-RNF02	O conteúdo deve ser fácil de atualizar pelos integrantes do laboratório.
-RNF03	O site deve carregar rapidamente (imagens otimizadas).
-RNF04	Deve ter versão em português e inglês.
-RNF05	O site deve ser hospedado em serviço confiável e com domínio próprio.
-RNF06	Identidade visual a definir em conjunto com o laboratório.
+| **Código do Requisito** | **Descrição** |
+|-------------------------|---------------|
+| **RNF01**                | O site deve ser totalmente responsivo (celulares, tablets e computadores). |
+| **RNF02**                | O conteúdo deve ser fácil de atualizar pelos integrantes do laboratório. |
+| **RNF03**                | O site deve carregar rapidamente (imagens otimizadas). |
+| **RNF04**                | Deve ter versão em português e inglês. |
+| **RNF05**                | O site deve ser hospedado em serviço confiável e com domínio próprio. |
+| **RNF06**                | Identidade visual a definir em conjunto com o laboratório. |
 🚀 Status do Projeto 🔄 Em desenvolvimento. Acompanhe os commits para ver o progresso e as novas funcionalidades adicionadas.
+
+
+🧑 **Integrantes**
+
+| Foto | Nome Completo                         | Papel          | LinkedIn                                                                 | GitHub                                  |
+|------|---------------------------------------|---------------|--------------------------------------------------------------------------|-----------------------------------------|
+| vazio | Pedro Augusto Gomes                   | Product Owner | [LinkedIn](https://www.linkedin.com/in/pedro-augusto-gomes)              | [GitHub](https://github.com/PedrinhoDBR) |
+| vazio | Israel da Silva Lemes                 | Scrum Master  | [LinkedIn](https://www.linkedin.com/in/israel-lemes/)                    | [GitHub](https://github.com/Israelisl)   |
+| vazio | João Paulo Lorena Dias da Silva       | Dev           | [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-lorena-056b95271)       | [GitHub](https://github.com/Jonnaes)     |
+| vazio | Thales Cambraia Dias                  | Dev           | [LinkedIn](https://www.linkedin.com/in/thales-tcd/)                      | [GitHub](https://github.com/thalestcd)   |
+| vazio | Marcus Vinicius Ribeiro do Nascimento | Dev           | [LinkedIn](https://www.linkedin.com/in/marcus-nascimento-50a0ba1b5)      | [GitHub](https://github.com/MarcusVRDN)  |
+| vazio | Nicolas Bernardo Patricio de Assis    | Dev           | [LinkedIn](https://www.linkedin.com/in/n%C3%ADcolas-assis-495906274)     | [GitHub](https://github.com/Nickcolth)   |
+| vazio | Ronaldo de Avila Ribeiro Junior       | Dev           | [LinkedIn](https://www.linkedin.com/in/ronaldo-de-avila-ribeiro-junior-653093238) | [GitHub](https://github.com/RonaldoAvilaa) |
+| vazio | Rainan de Oliveira Reis               | Dev           | [LinkedIn](https://www.linkedin.com/in/rainan-reis-757384365/)           | [GitHub](https://github.com/RainanKaneka) |
 
 📜 Licença Este projeto é de caráter acadêmico e institucional, vinculado ao INPE. Consulte as diretrizes do laboratório antes de reutilizar ou redistribuir este conteúdo.
 
