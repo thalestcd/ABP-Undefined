@@ -173,7 +173,7 @@ AgriRS Lab – Laboratório de Sensoriamento Remoto Agrícola (INPE) Este projet
         <td>Notícias</td>
         <td>3</td>
         <td>Ronaldo</td>
-        <td>✔(Pag. de Notícias atualizada)</td>
+        <td>✔</td>
         <td><a href="https://www.figma.com/design/2N7zSpm5xo2rUtcfgw2qbS/Tela-Inicio?node-id=0-1&p=f&t=SrGNEzFyTJh1DmLr-0">Link</a></td>
         <td></td>
       </tr>
@@ -186,5 +186,196 @@ AgriRS Lab – Laboratório de Sensoriamento Remoto Agrícola (INPE) Este projet
         <td><a href="https://www.figma.com/design/2N7zSpm5xo2rUtcfgw2qbS/Tela-Inicio?node-id=0-1&p=f&t=SrGNEzFyTJh1DmLr-0">Link</a></td>
         <td></td>
       </tr>
+      <tbody>
+  <tr>
+    <td>DD-011</td>
+    <td>Organizar e linkar projetos do figma</td>
+    <td>3</td>
+    <td>João</td>
+    <td></td>
+    <td><a href="">Link</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>DW-012</td>
+    <td>Planejar CSS base</td>
+    <td>3</td>
+    <td>Rainan</td>
+    <td></td>
+    <td><a href="">Link</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>ES-013</td>
+    <td>Planejar backlog Sprint 1</td>
+    <td>3</td>
+    <td>Pedro</td>
+    <td></td>
+    <td><a href="">Link</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>ES-014</td>
+    <td>Informações base do projeto no GitHub</td>
+    <td>3</td>
+    <td>Thales</td>
+    <td></td>
+    <td><a href="">Link</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>ES-015</td>
+    <td>Diagrama de casos de uso</td>
+    <td>3</td>
+    <td>Ronaldo</td>
+    <td></td>
+    <td><a href="">Link</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>ES-016</td>
+    <td>Organização do GitHub (Forks / Padrão de commits / Documentação)</td>
+    <td>3</td>
+    <td>Marcus</td>
+    <td></td>
+    <td><a href="">Link</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>ES-017</td>
+    <td>Organizar Trello Sprint 1</td>
+    <td>3</td>
+    <td>Israel</td>
+    <td></td>
+    <td><a href="">Link</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>SO-018</td>
+    <td>Pesquisa / configuração de ambiente Visual Studio Code</td>
+    <td>3</td>
+    <td>Nicolas</td>
+    <td></td>
+    <td><a href="">Link</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>ES-019</td>
+    <td>BurnDown Sprint 1</td>
+    <td>3</td>
+    <td></td>
+    <td>✖</td>
+    <td><a href="">Link</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>DW-020</td>
+    <td>Adicionar imagens do projeto / logos na pasta pública</td>
+    <td>3</td>
+    <td></td>
+    <td>✖</td>
+    <td><a href="">Link</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>DW-021</td>
+    <td>Trabalhar Footer.html</td>
+    <td>3</td>
+    <td></td>
+    <td>✖</td>
+    <td><a href="">Link</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>DW-022</td>
+    <td>Trabalhar Header.html</td>
+    <td>3</td>
+    <td></td>
+    <td>✖</td>
+    <td><a href="">Link</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>DW-023</td>
+    <td>Trabalhar página inicial</td>
+    <td>3</td>
+    <td></td>
+    <td>✖</td>
+    <td><a href="">Link</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>DW-024</td>
+    <td>Trabalhar página sobre o AgriRS</td>
+    <td>3</td>
+    <td></td>
+    <td>✖</td>
+    <td><a href="">Link</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>DW-025</td>
+    <td>Trabalhar página de membros</td>
+    <td>3</td>
+    <td></td>
+    <td>✖</td>
+    <td><a href="">Link</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>DW-026</td>
+    <td>Trabalhar página de notícias</td>
+    <td>3</td>
+    <td></td>
+    <td>✖</td>
+    <td><a href="">Link</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>DW-027</td>
+    <td>Trabalhar página de publicações</td>
+    <td>3</td>
+    <td></td>
+    <td>✖</td>
+    <td><a href="">Link</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>DW-028</td>
+    <td>Trabalhar página de vagas</td>
+    <td>3</td>
+    <td></td>
+    <td>✖</td>
+    <td><a href="">Link</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>DW-029</td>
+    <td>Trabalhar página de projetos</td>
+    <td>3</td>
+    <td></td>
+    <td>✖</td>
+    <td><a href="">Link</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>DW-030</td>
+    <td>Trabalhar página de contato</td>
+    <td>3</td>
+    <td></td>
+    <td>✖</td>
+    <td><a href="">Link</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>DW-031</td>
+    <td>Integrar footer / header nas páginas</td>
+    <td>3</td>
+    <td></td>
+    <td>✖</td>
+    <td><a href="">Link</a></td>
+    <td></td>
+  </tr>
+
     </tbody>
   </table>
