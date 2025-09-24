@@ -1,22 +1,65 @@
-<h1>Undefined </h1>
+# ABP-Undefined
+AgriRS Lab – Laboratório de Sensoriamento Remoto Agrícola (INPE)
+Este projeto tem como objetivo criar o website oficial do AgriRS Lab (Laboratório de Sensoriamento Remoto Agrícola do INPE).
+O site servirá como um portal centralizado de informações, ampliando a visibilidade do laboratório e facilitando o acesso do público às pesquisas, projetos e iniciativas em andamento.
 
-<p id='Projeto'>Projeto: </p>
-ABP-Undefined
-AgriRS Lab – Laboratório de Sensoriamento Remoto Agrícola (INPE) Este projeto tem como objetivo criar o website oficial do AgriRS Lab (Laboratório de Sensoriamento Remoto Agrícola do INPE). O site servirá como um portal centralizado de informações, ampliando a visibilidade do laboratório e facilitando o acesso do público às pesquisas, projetos e iniciativas em andamento.
+📌 **Propósitos do Projeto**
+Centralizar informações relevantes sobre o laboratório.
+Divulgar pesquisas, projetos e iniciativas científicas.
+Apresentar a equipe e suas áreas de atuação.
+Disponibilizar publicações científicas em um só local.
+Informar sobre oportunidades de trabalho e colaboração.
+Facilitar o contato com a comunidade científica e o público em geral.
+Promover maior visibilidade institucional do laboratório.
 
-📌 Propósitos do Projeto Centralizar informações relevantes sobre o laboratório. Divulgar pesquisas, projetos e iniciativas científicas. Apresentar a equipe e suas áreas de atuação. Disponibilizar publicações científicas em um só local. Informar sobre oportunidades de trabalho e colaboração. Facilitar o contato com a comunidade científica e o público em geral. Promover maior visibilidade institucional do laboratório.
+👥 **Equipe do Projeto**
+Thales
+Ronaldo
+Israel
+Marcus
+Pedro
+Nicolas
+Rainan
+João
 
-👥 Equipe do Projeto Israel, João, Marcus, Nicolas, Pedro, Rainan, Thales, Ronaldo
+🎨 **Design Gráfico (Figma)**
+O protótipo do website foi desenvolvido no Figma, com foco em usabilidade, identidade visual e responsividade.
+Este design servirá como base para o desenvolvimento do frontend.
+🔗 Acesse o protótipo no Figma: [Insira aqui o link do projeto no Figma]
+Principais pontos do design:
+Identidade visual alinhada ao propósito científico e institucional do laboratório.
+Layout responsivo (desktop e mobile).
+Estrutura de navegação intuitiva e organizada.
+Uso da paleta de cores definida pelo grupo.
+Protótipos interativos para simular a navegação.
 
-🎨 Design Gráfico (Figma) O protótipo do website foi desenvolvido no Figma, com foco em usabilidade, identidade visual e responsividade. Este design servirá como base para o desenvolvimento do frontend. 🔗 Acesse o protótipo no Figma: [Insira aqui o link do projeto no Figma] Principais pontos do design: Identidade visual alinhada ao propósito científico e institucional do laboratório. Layout responsivo (desktop e mobile). Estrutura de navegação intuitiva e organizada. Uso da paleta de cores definida pelo grupo. Protótipos interativos para simular a navegação.
+🛠️ **Tecnologias Previstas**
+Frontend: HTML, CSS, JavaScript (ou framework a definir)
+Design Responsivo: compatível com desktop e mobile
+Integração Multilíngue: português/inglês
+Funcionalidades:
+Hero banner e carrossel de destaques
+Páginas institucionais (Sobre, Equipe, Áreas de Atuação)
+Seção de Publicações e Notícias
+Página de Oportunidades
+Formulário de Contato
 
-🛠️ Tecnologias Previstas Frontend: HTML, CSS, JavaScript (ou framework a definir) Design Responsivo: compatível com desktop e mobile Integração Multilíngue: português/inglês Funcionalidades: Hero banner e carrossel de destaques Páginas institucionais (Sobre, Equipe, Áreas de Atuação) Seção de Publicações e Notícias Página de Oportunidades Formulário de Contato
+📂 Estrutura Prevista do Site
+Home
+Sobre
+O AgriRS
+Equipe
+Colaboradores
+Oportunidades
+Atuação
+Áreas de Pesquisa
+Projetos
+Publicações
+Notícias
+Contato
 
-📂 Estrutura Prevista do Site Home Sobre O AgriRS Equipe Colaboradores Oportunidades Atuação Áreas de Pesquisa Projetos Publicações Notícias Contato
-
-<h1 id='Requisitos'>📑 Requisitos</h1>
-
-<h3>✅ Requisitos Funcionais</h3>
+📑 **Requisitos**
+✅ **Requisitos Funcionais**
 
 | **Código do Requisito** | **Descrição** |
 |-------------------------|---------------|
@@ -50,6 +93,7 @@ AgriRS Lab – Laboratório de Sensoriamento Remoto Agrícola (INPE) Este projet
 | RF08.3                  | Incluir links para redes sociais do laboratório. |
 | RF08.4                  | Incluir mapa de localização do laboratório dentro do INPE. |
 
+
 <h3>⚙️ Requisitos Não Funcionais</h3>
 
 | **Código do Requisito** | **Descrição** |
@@ -60,8 +104,14 @@ AgriRS Lab – Laboratório de Sensoriamento Remoto Agrícola (INPE) Este projet
 | **RNF04**                | Deve ter versão em português e inglês. |
 | **RNF05**                | O site deve ser hospedado em serviço confiável e com domínio próprio. |
 | **RNF06**                | Identidade visual a definir em conjunto com o laboratório. |
-🚀 Status do Projeto 🔄 Em desenvolvimento. Acompanhe os commits para ver o progresso e as novas funcionalidades adicionadas.
 
+🚀 **Status do Projeto**
+🔄 **Em desenvolvimento.**
+Acompanhe os commits para ver o progresso e as novas funcionalidades adicionadas.
+
+📜 **Licença**
+Este projeto é de caráter acadêmico e institucional, vinculado ao INPE.
+Consulte as diretrizes do laboratório antes de reutilizar ou redistribuir este conteúdo.
 
 <h3 id='Membros'>🧑 Integrantes</h3>
 
