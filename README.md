@@ -117,7 +117,7 @@ Consulte as diretrizes do laboratório antes de reutilizar ou redistribuir este 
 
 | Foto | Nome Completo                         | Papel          | LinkedIn                                                                 | GitHub                                  |
 |------|---------------------------------------|---------------|--------------------------------------------------------------------------|-----------------------------------------|
-| ![Pedro](public/pedro.jfif) | Pedro Augusto Gomes                   | Product Owner | [LinkedIn](https://www.linkedin.com/in/pedro-augusto-gomes)              | [GitHub](https://github.com/PedrinhoDBR) |
+| ![Pedro](public/pedro.jpg) | Pedro Augusto Gomes                   | Product Owner | [LinkedIn](https://www.linkedin.com/in/pedro-augusto-gomes)              | [GitHub](https://github.com/PedrinhoDBR) |
 | vazio | Israel da Silva Lemes                 | Scrum Master  | [LinkedIn](https://www.linkedin.com/in/israel-lemes/)                    | [GitHub](https://github.com/Israelisl)   |
 | vazio | João Paulo Lorena Dias da Silva       | Dev           | [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-lorena-056b95271)       | [GitHub](https://github.com/Jonnaes)     |
 | vazio | Thales Cambraia Dias                  | Dev           | [LinkedIn](https://www.linkedin.com/in/thales-tcd/)                      | [GitHub](https://github.com/thalestcd)   |
