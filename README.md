@@ -6,7 +6,7 @@ AgriRS Lab – Laboratório de Sensoriamento Remoto Agrícola (INPE) Este projet
 
 📌 Propósitos do Projeto Centralizar informações relevantes sobre o laboratório. Divulgar pesquisas, projetos e iniciativas científicas. Apresentar a equipe e suas áreas de atuação. Disponibilizar publicações científicas em um só local. Informar sobre oportunidades de trabalho e colaboração. Facilitar o contato com a comunidade científica e o público em geral. Promover maior visibilidade institucional do laboratório.
 
-👥 Equipe do Projeto Thales Ronaldo Israel Marcus Pedro Nicolas Rainan João
+👥 Equipe do Projeto Israel, João, Marcus, Nicolas, Pedro, Rainan, Thales, Ronaldo
 
 🎨 Design Gráfico (Figma) O protótipo do website foi desenvolvido no Figma, com foco em usabilidade, identidade visual e responsividade. Este design servirá como base para o desenvolvimento do frontend. 🔗 Acesse o protótipo no Figma: [Insira aqui o link do projeto no Figma] Principais pontos do design: Identidade visual alinhada ao propósito científico e institucional do laboratório. Layout responsivo (desktop e mobile). Estrutura de navegação intuitiva e organizada. Uso da paleta de cores definida pelo grupo. Protótipos interativos para simular a navegação.
 
