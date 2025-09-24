@@ -79,7 +79,7 @@ AgriRS Lab – Laboratório de Sensoriamento Remoto Agrícola (INPE) Este projet
 📜 Licença Este projeto é de caráter acadêmico e institucional, vinculado ao INPE. Consulte as diretrizes do laboratório antes de reutilizar ou redistribuir este conteúdo.
 
 <h1>📎 Links</h1>
-<h3><a href = "https://trello.com/invite/b/68b7933ef2be085bb9e0eca6/ATTI91d8344b8859eb630d623d8b0cb6c31a296912BC/undefined">Trello  </a> </br>
+<h3><a href = "https://trello.com/invite/b/68d3438109f6162f0c66abaa/ATTI5cf931350e74ce665e78aff437f77c94194950D5/undefined-sprint-1">Trello  </a> </br>
 <a href = "https://www.figma.com/files/team/1544516334617697082/project/444279865?fuid=1407439674361896360">Figma </a>
 </h3>
 
@@ -247,7 +247,7 @@ AgriRS Lab – Laboratório de Sensoriamento Remoto Agrícola (INPE) Este projet
         <td>3</td>
         <td>Israel</td>
         <td>✔</td>
-        <td><a href="https://trello.com/invite/b/68b7933ef2be085bb9e0eca6/ATTI91d8344b8859eb630d623d8b0cb6c31a296912BC/undefined">Link</a></td>
+        <td><a href="https://trello.com/invite/b/68d3438109f6162f0c66abaa/ATTI5cf931350e74ce665e78aff437f77c94194950D5/undefined-sprint-1">Link</a></td>
         <td></td>
       </tr>
       <tr>
