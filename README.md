@@ -12,20 +12,11 @@ Informar sobre oportunidades de trabalho e colaboração.
 Facilitar o contato com a comunidade científica e o público em geral.
 Promover maior visibilidade institucional do laboratório.
 
-👥 **Equipe do Projeto**
-Thales
-Ronaldo
-Israel
-Marcus
-Pedro
-Nicolas
-Rainan
-João
 
 🎨 **Design Gráfico (Figma)**
 O protótipo do website foi desenvolvido no Figma, com foco em usabilidade, identidade visual e responsividade.
 Este design servirá como base para o desenvolvimento do frontend.
-🔗 Acesse o protótipo no Figma: [Insira aqui o link do projeto no Figma]
+🔗 Acesse o protótipo no Figma: (https://www.figma.com/files/team/1544516334617697082/project/444279865?fuid=1535458053608445462)
 Principais pontos do design:
 Identidade visual alinhada ao propósito científico e institucional do laboratório.
 Layout responsivo (desktop e mobile).
@@ -34,7 +25,7 @@ Uso da paleta de cores definida pelo grupo.
 Protótipos interativos para simular a navegação.
 
 🛠️ **Tecnologias Previstas**
-Frontend: HTML, CSS, JavaScript (ou framework a definir)
+Frontend: <img src="./public/html.png" alt="Html" width=20px> HTML, <img src="./public/css-3.png" alt="css" width=20px>CSS, <img src="./public/js.png" alt="js" width=20px>JavaScript (ou framework a definir)
 Design Responsivo: compatível com desktop e mobile
 Integração Multilíngue: português/inglês
 Funcionalidades:
