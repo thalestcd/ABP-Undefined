@@ -90,7 +90,7 @@ margin-bottom: 10px;
     align-items: flex-end;
     background-color: #dfdfdf;
     height: 35vh;
-    background: url(imagemCarroselNoticia.png);    
+    background: url(../public/img/imagemCarroselNoticia.png);    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -186,8 +186,31 @@ button{
     /* transform: scale(1.2); */
     height: 50px;
     width: 150px;
+    padding: 10px;
+    background-color: #DFFFE5;
+    border: 1px solid #005b11;
+
 
 }
+
+button:hover{
+ font-size: large;
+    border-radius: 50px;
+    /* transform: scale(1.2); */
+    height: 50px;
+    width: 150px;
+    padding: 10px;
+    background-color: #005b11;
+    color: white;
+
+}
+
+/* button::before{
+    content: "fodase";
+}
+button:hover::before {
+    content: "bazinga";
+} */
 
 .card{
     display: flex;
@@ -244,7 +267,6 @@ button{
     display: flex;
     
     
-
 }
 
 
@@ -268,9 +290,20 @@ form{
 
 } 
 
-form > input{
+form > input, textarea{
     width: 300px;
+    /* border: solid 1px;
+    border-radius: 5px; */
+    border: none;
+  padding: 7px;
+  border-radius: 3px;
+  /* box-shadow: inset 3px 4px 4px rgba(200, 200, 200, 0.5); */
+  border-bottom: 1px solid rgba(200, 200, 200, 0.9);
+  font-family: inherit;
+
 }
+
+
 
 
 
