@@ -146,7 +146,11 @@ margin-bottom: 10px;
     border-radius: 10px;
     display: flex;
     margin: 20px;
-    
+    transition: 200ms;
+}
+
+.PROJETOScard:hover{
+    transform: scale(1.2);
 }
 
 .cardsProjetos{
@@ -164,8 +168,11 @@ margin-bottom: 10px;
     border-radius: 10px;
     display: flex;
     margin: 20px;
-    
+    transition: 200ms;
+}
 
+.PUBLICACOEScard:hover{
+    transform: scale(1.2);
 }
 
 .cardsPublicacoes{
@@ -192,12 +199,15 @@ button{
     border-radius: 10px;
     display: flex;
     margin: 20px;
-    
+    transition: 200ms;
+}
+
+.card:hover{
+    transform: scale(1.2);
 }
 
 .cardText{
-    border-top-left-radius:20px;
-    border-top-right-radius:20px;
+    border-radius: 10px;
     background-color: #3F936E;
     width: 206px;
     height: 100px;
@@ -207,12 +217,14 @@ button{
      display: flex;
      flex-direction: column;
      justify-content: center;
-     border-top-left-radius:10px;
-    border-top-right-radius:10px;
+  border-radius: 10px;
     background-color: #3F936E;
     width: 206px;
     height: 30px;
+    font-size: small;
+    
 }
+
 
 
 /* equipe Carrosel //////////////*/
