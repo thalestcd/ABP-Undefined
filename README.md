@@ -4,11 +4,29 @@
 ABP-Undefined
 AgriRS Lab – Laboratório de Sensoriamento Remoto Agrícola (INPE) Este projeto tem como objetivo criar o website oficial do AgriRS Lab (Laboratório de Sensoriamento Remoto Agrícola do INPE). O site servirá como um portal centralizado de informações, ampliando a visibilidade do laboratório e facilitando o acesso do público às pesquisas, projetos e iniciativas em andamento.
 
-📌 Propósitos do Projeto Centralizar informações relevantes sobre o laboratório. Divulgar pesquisas, projetos e iniciativas científicas. Apresentar a equipe e suas áreas de atuação. Disponibilizar publicações científicas em um só local. Informar sobre oportunidades de trabalho e colaboração. Facilitar o contato com a comunidade científica e o público em geral. Promover maior visibilidade institucional do laboratório.
 
-👥 Equipe do Projeto Thales Ronaldo Israel Marcus Pedro Nicolas Rainan João
+🎨 **Design Gráfico (Figma)**
+O protótipo do website foi desenvolvido no Figma, com foco em usabilidade, identidade visual e responsividade.
+Este design servirá como base para o desenvolvimento do frontend.
+🔗 Acesse o protótipo no Figma: (https://www.figma.com/files/team/1544516334617697082/project/444279865?fuid=1535458053608445462)
+Principais pontos do design:
+Identidade visual alinhada ao propósito científico e institucional do laboratório.
+Layout responsivo (desktop e mobile).
+Estrutura de navegação intuitiva e organizada.
+Uso da paleta de cores definida pelo grupo.
+Protótipos interativos para simular a navegação.
 
-🎨 Design Gráfico (Figma) O protótipo do website foi desenvolvido no Figma, com foco em usabilidade, identidade visual e responsividade. Este design servirá como base para o desenvolvimento do frontend. 🔗 Acesse o protótipo no Figma: [Insira aqui o link do projeto no Figma] Principais pontos do design: Identidade visual alinhada ao propósito científico e institucional do laboratório. Layout responsivo (desktop e mobile). Estrutura de navegação intuitiva e organizada. Uso da paleta de cores definida pelo grupo. Protótipos interativos para simular a navegação.
+🛠️ **Tecnologias Previstas**
+Frontend: <img src="./public/html.png" alt="Html" width=20px> HTML, <img src="./public/css-3.png" alt="css" width=20px>CSS, <img src="./public/js.png" alt="js" width=20px>JavaScript (ou framework a definir)
+Design Responsivo: compatível com desktop e mobile
+Integração Multilíngue: português/inglês
+Funcionalidades:
+Hero banner e carrossel de destaques
+Páginas institucionais (Sobre, Equipe, Áreas de Atuação)
+Seção de Publicações e Notícias
+Página de Oportunidades
+Formulário de Contato
+
 
 🛠️ Tecnologias Previstas Frontend: HTML, CSS, JavaScript (ou framework a definir) Design Responsivo: compatível com desktop e mobile Integração Multilíngue: português/inglês Funcionalidades: Hero banner e carrossel de destaques Páginas institucionais (Sobre, Equipe, Áreas de Atuação) Seção de Publicações e Notícias Página de Oportunidades Formulário de Contato
 
@@ -67,13 +85,13 @@ AgriRS Lab – Laboratório de Sensoriamento Remoto Agrícola (INPE) Este projet
 
 | Foto | Nome Completo                         | Papel          | LinkedIn                                                                 | GitHub                                  |
 |------|---------------------------------------|---------------|--------------------------------------------------------------------------|-----------------------------------------|
-| vazio | Pedro Augusto Gomes                   | Product Owner | [LinkedIn](https://www.linkedin.com/in/pedro-augusto-gomes)              | [GitHub](https://github.com/PedrinhoDBR) |
-| vazio | Israel da Silva Lemes                 | Scrum Master  | [LinkedIn](https://www.linkedin.com/in/israel-lemes/)                    | [GitHub](https://github.com/Israelisl)   |
-| vazio | João Paulo Lorena Dias da Silva       | Dev           | [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-lorena-056b95271)       | [GitHub](https://github.com/Jonnaes)     |
-| vazio | Thales Cambraia Dias                  | Dev           | [LinkedIn](https://www.linkedin.com/in/thales-tcd/)                      | [GitHub](https://github.com/thalestcd)   |
-| vazio | Marcus Vinicius Ribeiro do Nascimento | Dev           | [LinkedIn](https://www.linkedin.com/in/marcus-nascimento-50a0ba1b5)      | [GitHub](https://github.com/MarcusVRDN)  |
-| vazio | Nicolas Bernardo Patricio de Assis    | Dev           | [LinkedIn](https://www.linkedin.com/in/n%C3%ADcolas-assis-495906274)     | [GitHub](https://github.com/Nickcolth)   |
-| vazio | Ronaldo de Avila Ribeiro Junior       | Dev           | [LinkedIn](https://www.linkedin.com/in/ronaldo-de-avila-ribeiro-junior-653093238) | [GitHub](https://github.com/RonaldoAvilaa) |
+| <img src="./public/Pedro.jpg" alt="Pedro" width=100px> | Pedro Augusto Gomes                   | Product Owner | [LinkedIn](https://www.linkedin.com/in/pedro-augusto-gomes)              | [GitHub](https://github.com/PedrinhoDBR) |
+| <img src="./public/Israel.jpg" alt="Israel" width=100px> | Israel da Silva Lemes                 | Scrum Master  | [LinkedIn](https://www.linkedin.com/in/israel-lemes/)                    | [GitHub](https://github.com/Israelisl)   |
+| <img src="./public/Lorena.jpg" alt="Lorena" width=100px> | João Paulo Lorena Dias da Silva       | Dev           | [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-lorena-056b95271)       | [GitHub](https://github.com/Jonnaes)     |
+| <img src="./public/Thales.jpg" alt="Thales" width=100px> | Thales Cambraia Dias                  | Dev           | [LinkedIn](https://www.linkedin.com/in/thales-tcd/)                      | [GitHub](https://github.com/thalestcd)   |
+| <img src="./public/Marcus.jpg" alt="Marcus" width=100px> | Marcus Vinicius Ribeiro do Nascimento | Dev           | [LinkedIn](https://www.linkedin.com/in/marcus-nascimento-50a0ba1b5)      | [GitHub](https://github.com/MarcusVRDN)  |
+| <img src="./public/Nicolas.jpg" alt="Nicolas" width=100px> | Nicolas Bernardo Patricio de Assis    | Dev           | [LinkedIn](https://www.linkedin.com/in/n%C3%ADcolas-assis-495906274)     | [GitHub](https://github.com/Nickcolth)   |
+| <img src="./public/Ronaldo.jpg" alt="Ronaldo" width=100px> | Ronaldo de Avila Ribeiro Junior       | Dev           | [LinkedIn](https://www.linkedin.com/in/ronaldo-de-avila-ribeiro-junior-653093238) | [GitHub](https://github.com/RonaldoAvilaa) |
 | vazio | Rainan de Oliveira Reis               | Dev           | [LinkedIn](https://www.linkedin.com/in/rainan-reis-757384365/)           | [GitHub](https://github.com/RainanKaneka) |
 
 📜 Licença Este projeto é de caráter acadêmico e institucional, vinculado ao INPE. Consulte as diretrizes do laboratório antes de reutilizar ou redistribuir este conteúdo.
