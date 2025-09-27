@@ -63,6 +63,19 @@ margin-bottom: 10px;
     transform: scale(1.2);
 }
 
+header nav .menu-button{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    transition: 200ms;
+}
+
+header nav .menu-button:hover{
+    color: var(--light-blue-color);
+
+}
+
 /* Container -> ///////////////////////////////////////*/
 
 
@@ -74,7 +87,6 @@ margin-bottom: 10px;
 }
 
 .container > *{
-
     width: 900px;
 }
 
@@ -113,6 +125,17 @@ width: 900px;
     font-size: x-large;
 }
 
+
+
+#footer1 div a{
+    margin: 0.6rem;
+    transition: 200ms;
+}
+
+#footer1 div a:hover{
+    color: blue;
+}
+
 #footer3{
     display: flex;
     align-items: column;
@@ -120,18 +143,10 @@ width: 900px;
 }
 
 
-/* Fontes ////////// */
-
-.kanit-regular {
-  font-family: "Kanit", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-
 /* Link */
 
 a{
+    color: var(--text-base-color);
     text-decoration: none;
 }
 

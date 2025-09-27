@@ -1,4 +1,4 @@
-body{
+body {
     /* display: flex; */
     padding: 0;
     margin: 0;
@@ -12,47 +12,47 @@ body{
 
 /*////////// Header - > ///////////////////////////////////////////*/
 
-.header > nav {
+.header>nav {
     display: flex;
     justify-content: row;
     justify-content: space-between;
 
 }
 
-header{
-      display: flex;
+header {
+    display: flex;
     justify-content: center;
-    
+
     /* background-color:#2E6A50; */
     background-image: linear-gradient(180deg, #2E6A50 0%, #41C089 73%);
     color: white;
     text-shadow: 2px 2px 2px black;
 }
 
-.header{
+.header {
     width: 900px;
 }
 
 
-.headerTop{
+.headerTop {
     display: flex;
 }
 
-.agrirslab{
+.agrirslab {
     text-align: start;
 }
 
-.arsl{
-margin-bottom: 10px;
+.arsl {
+    margin-bottom: 10px;
 
 
 }
 
-.title{
+.title {
     margin-left: 30px;
 }
 
-.logo{
+.logo {
     margin-top: 20px;
     transform: scale(1.2);
 }
@@ -60,19 +60,19 @@ margin-bottom: 10px;
 /* Container -> ///////////////////////////////////////*/
 
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100vw;
 }
 
-.container > *{
+.container>* {
 
     width: 900px;
 }
 
-.container > section {
+.container>section {
 
     display: flex;
     flex-direction: column;
@@ -84,37 +84,37 @@ margin-bottom: 10px;
 
 /* Carrosel ////////////////////////////////*/
 
-.carrosel{
+.carrosel {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     background-color: #dfdfdf;
     height: 35vh;
-    background: url(../public/img/imagemCarroselNoticia.png);    
+    background: url(../public/img/imagemCarroselNoticia.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 20px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-}   
+}
 
-.carroselText{
-      border-top-left-radius:10px;
-    border-top-right-radius:10px;
+.carroselText {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     background-color: #3f936f8a;
     width: 100vh;
-    height: 15vh;  
+    height: 15vh;
     color: white;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
-.carroselText > p{
+.carroselText>p {
     margin: 0px;
 }
 
-.arrows{
+.arrows {
     display: flex;
 }
 
@@ -123,20 +123,20 @@ margin-bottom: 10px;
 
 /* Setas Carrosel -> ////////////////////////////*/
 
-#leftArrow{
+#leftArrow {
     display: flex;
     transform: scaleX(-1);
 }
 
-.material-symbols-outlined{
+.material-symbols-outlined {
     margin-top: 55px;
-    
+
 }
 
 
 /* feed / Cards //////////////*/
 
-.PROJETOScard{
+.PROJETOScard {
     display: flex;
     align-items: flex-end;
     background-color: #2E6A50;
@@ -147,21 +147,38 @@ margin-bottom: 10px;
     display: flex;
     margin: 20px;
     transition: 200ms;
+    background-image: url(/public/img/Figura_P1_PS.png);
+    background-size: contain;
+    font-size: small;
+    color: white;
+
 }
 
-.PROJETOScard:hover{
+.PROJETOScard:hover {
     transform: scale(1.2);
 }
 
-.cardsProjetos{
+.cardsProjetos {
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 
-.PUBLICACOEScard{
+
+#PROJETOScard2 {
+    background-image: url(/public/img/projeto2img.png);
+    background-size: contain;
+}
+
+#PROJETOScard3 {
+    background-image: url(/public/img/Figura_P2_MG.JPG);
+    background-size: cover;
+}
+
+.PUBLICACOEScard {
     display: flex;
     align-items: flex-end;
-      background-color: #2E6A50;
+    background-color: #2E6A50;
     height: 300px;
     width: 200px;
     /* border: solid; */
@@ -169,41 +186,35 @@ margin-bottom: 10px;
     display: flex;
     margin: 20px;
     transition: 200ms;
+    background-image: url(/public/img/Figura_A2_NS.png);
+    background-size: cover;
+    color: white;
+    font-size: small;
 }
 
-.PUBLICACOEScard:hover{
+
+#PUBLICACOEScard2 {
+    background-image: url(/public/img/Figura_A7_AG.png);
+    background-size: contain;
+
+
+}
+
+#PUBLICACOEScard3 {
+    background-image: url(/public/img/Figura_AC1_PS.png);
+    background-size: contain;
+}
+
+.PUBLICACOEScard:hover {
     transform: scale(1.2);
 }
 
-.cardsPublicacoes{
+.cardsPublicacoes {
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 
-button{
-    font-size: large;
-    border-radius: 50px;
-    /* transform: scale(1.2); */
-    height: 50px;
-    width: 150px;
-    padding: 10px;
-    background-color: #DFFFE5;
-    border: 1px solid #005b11;
-
-
-}
-
-button:hover{
- font-size: large;
-    border-radius: 50px;
-    /* transform: scale(1.2); */
-    height: 50px;
-    width: 150px;
-    padding: 10px;
-    background-color: #005b11;
-    color: white;
-
-}
 
 /* button::before{
     content: "fodase";
@@ -212,10 +223,20 @@ button:hover::before {
     content: "bazinga";
 } */
 
+
+/* equipe Carrosel //////////////*/
+
+
+.equipeCarrosel {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
 .card{
     display: flex;
     align-items: flex-end;
-         background-color: #2E6A50;
+    background-color: #2E6A50;
     height: 100px;
     width: 75px;
     /* border: solid; */
@@ -223,83 +244,141 @@ button:hover::before {
     display: flex;
     margin: 20px;
     transition: 200ms;
+    color: var(--text-base-color);
 }
 
-.card:hover{
+.card:hover {
     transform: scale(1.2);
 }
 
-.cardText{
-    border-radius: 10px;
-    background-color: #3F936E;
-    width: 206px;
-    height: 100px;
+.card:hover::before{
+    content: "Nome";
+
 }
 
-.cardTextEquipe{
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-  border-radius: 10px;
+
+.cardTextEquipe.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
     background-color: #3F936E;
     width: 206px;
     height: 30px;
     font-size: small;
-    
 }
 
-
-
-/* equipe Carrosel //////////////*/
-
-
-.equipeCarrosel{
-    display: flex;
-    justify-content: space-between;
+#cardEquipe1 {
+    background-image: url(/public/img/equipe/Andre_Garcia.jpeg);
+    background-size: contain;
 }
 
+#cardEquipe2 {
+    background-image: url(/public/img/equipe/Cleverton_Santana.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 125px;
+}
 
+#cardEquipe3 {
+    background-image: url(/public/img/equipe/Darlan_Teles.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 80px;
+
+}
+
+#cardEquipe4 {
+    background-image: url(/public/img/equipe/Gabriel_Sansigolo.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 100px;
+}
+
+#cardEquipe5 {
+    background-image: url(/public/img/equipe/Grazieli_Rodigheri.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 105px;
+}
+
+#cardEquipe6 {
+    background-image: url(/public/img/equipe/Lorrany_Colegnac.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 100px;
+}
+
+#cardEquipe7 {
+    background-image: url(/public/img/equipe/Marcos_Adami.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 105px;
+}
+
+/* Cards */
+
+.cardText {
+    border-radius: 10px;
+    background-color: #3F936E;
+    width: 206px;
+    height: 100px;
+
+}
 
 
 /* área de Formulario /////////////////// */
 
-.formSection{
+.formSection {
     display: flex;
-    
-    
+
+
 }
 
 
-form{
+form {
     display: flex;
     justify-content: center;
     margin: 20px;
-    
-    
+
+
 }
 
 
-.buttonForm{
+.buttonForm {
     display: flex;
     justify-content: center;
 }
 
-#assuntoBox > form{
-    height: 100px ;
-    
+#assuntoBox>form {
+    height: 100px;
 
-} 
 
-form > input, textarea{
+}
+
+form>input,
+textarea {
     width: 300px;
     /* border: solid 1px;
     border-radius: 5px; */
     border: none;
-  padding: 7px;
-  border-radius: 3px;
-  /* box-shadow: inset 3px 4px 4px rgba(200, 200, 200, 0.5); */
-  border-bottom: 1px solid rgba(200, 200, 200, 0.9);
-  font-family: inherit;
+    padding: 7px;
+    border-radius: 3px;
+    /* box-shadow: inset 3px 4px 4px rgba(200, 200, 200, 0.5); */
+    border-bottom: 1px solid rgba(200, 200, 200, 0.9);
+    font-family: inherit;
 
 }
 
@@ -312,32 +391,32 @@ form > input, textarea{
 
 /* footer //////////////////// */
 
-footer{
-display: flex;
-justify-content: space-around;
-background-image: linear-gradient(180deg, #154430 0%, #3F936E 100%);
-color: white;
-padding: 30px;
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(180deg, #154430 0%, #3F936E 100%);
+    color: white;
+    padding: 30px;
 
 }
 
-.footer{
-display: flex;
-justify-content: space-between;
-width: 900px;
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
 
 
 }
 
 
-#footer1{
+#footer1 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     font-size: x-large;
 }
 
-#footer3{
+#footer3 {
     display: flex;
     align-items: column;
     width: 300px;
@@ -347,15 +426,15 @@ width: 900px;
 /* unrelated ////////// */
 
 .kanit-regular {
-  font-family: "Kanit", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.languageButton{
+.languageButton {
     transform: scale(0.7);
 }
