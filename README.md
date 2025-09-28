@@ -25,8 +25,13 @@ informações do laboratório, ampliando sua visibilidade e facilitando o acesso
   <li><a href="#status-do-projeto">🚀 Status do Projeto</a></li>
   <li><a href="#integrantes">🧑 Integrantes</a></li>
   <li><a href="#licenca">📜 Licença</a></li>
-  <li><a href="#links">Links 📎</a></li>
-  <li><a href="#backlog-sprint-1">Backlog Sprint 1</a></li>
+  <li><a href="#links">📎 Links</a></li>
+  <li><a href="#sprint-1">⏱️ Sprint 1</a>
+      <ul>
+        <li><a href="#backlog-sprint-1">📋 Backlog</a></li>
+        <li><a href="#burndown-sprint-1">📉 Burndown</a></li>
+      </ul>
+    </li>
 </ul>
 
 <hr>
@@ -202,7 +207,7 @@ O desenvolvimento do site será feito utilizando tecnologias simples e eficiente
   Consulte as <strong>diretrizes do laboratório</strong> antes de reutilizar ou redistribuir este conteúdo.
 </p>
 
-<h1 id="links">Links 📎</h1>
+<h1 id="links">📎 Links</h1>
 
 <ul>
   <li>
@@ -219,8 +224,8 @@ O desenvolvimento do site será feito utilizando tecnologias simples e eficiente
   </li>
 </ul>
 
-
-<h2 id="backlog-sprint-1">Backlog Sprint 1</h2>
+<h1 id="sprint-1">⏱️ Sprint 1</h1>
+<h2 id="backlog-sprint-1">📋 Backlog</h2>
   <table border="1" cellpadding="5" cellspacing="0">
     <thead>
       <tr>
@@ -515,3 +520,9 @@ O desenvolvimento do site será feito utilizando tecnologias simples e eficiente
       </tr>
     </tbody>
   </table>
+
+<h2 id="burndown-sprint-1">📉 Burndown</h2>
+
+<img src="./public/img/burndown_sprint1.png">
+
+<hr>
