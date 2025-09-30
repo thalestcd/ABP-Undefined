@@ -151,6 +151,10 @@ a{
     text-decoration: none;
 }
 
+.contatos {
+    display: flex;
+}
+
 footer a{
     color: var(--text-base-color);
 }
