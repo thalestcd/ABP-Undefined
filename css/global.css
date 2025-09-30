@@ -106,6 +106,7 @@ justify-content: space-around;
 background-image: linear-gradient(180deg, #154430 0%, #3F936E 100%);
 color: white;
 padding: 30px;
+width: 100vw;
 
 }
 
@@ -146,10 +147,13 @@ width: 900px;
 /* Link */
 
 a{
-    color: var(--text-base-color);
+    /* color: var(--text-base-color); */
     text-decoration: none;
 }
 
+footer a{
+    color: var(--text-base-color);
+}
 
 
 .languageButton{
