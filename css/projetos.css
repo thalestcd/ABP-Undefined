@@ -1,0 +1,88 @@
+.carrosel {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #dfdfdf;
+    height: 35vh;
+    background: url(../public/img/projetos/Carrosel.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 1.25rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.carroselText {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #3f936f8a;
+    width: 100%;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.PROJETOScard {
+    display: flex;
+    align-items: flex-end;
+    background-color: #2E6A50;
+    height: 18.75rem;
+    width: 12.5rem;
+    border-radius: 10px;
+    display: flex;
+    margin: 1.25rem;
+    transition: 200ms;
+    background-image: url(/public/img/Figura_P1_PS.png);
+    background-size: contain;
+    font-size: small;
+    color: white;
+    position: relative;
+}   
+
+.PROJETOScard:hover {
+    transform: scale(1.2);
+}
+
+.cardsProjetos {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#PROJETOScard1 {
+    background-image: url(/public/img/Figura_P1_PS.png);
+    background-size: contain;
+}
+
+#PROJETOScard2 {
+    background-image: url(/public/img/Figura_P2_MG.JPG);
+    background-size: cover;
+}
+
+#PROJETOScard3 {
+    background-image: url(/public/img/projetos/Projeto\ 3.jpg);
+    background-size: contain;
+}
+
+#PROJETOScard4 {
+    background-image: url(/public/img/projetos/Projeto\ 4.jpg);
+    background-size: contain;
+}
+
+#PROJETOScard5 {
+    background-image: url(/public/img/projetos/Projeto\ 5.jpg);
+    background-size: contain;
+}
+
+#PROJETOScard6 {
+    background-image: url(/public/img/projetos/Projeto\ 6.jpg);
+    background-size: contain;
+}
+
+.cardText {
+    border-radius: 10px;
+    background-color: #3F936E;
+    width: 12.875rem;
+    height: 6.25rem;
+}
