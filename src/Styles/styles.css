@@ -213,6 +213,22 @@ a{
 
 .localizacao {
     border: 2px solid black;
+    width: 870px;
+    height: 1080px;
+    margin-top: 200px;
+}
+
+.contatos {
+    display: flex;
+    justify-content: center;
+}
+
+.contatoInfo {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 870px;
+    height: 1080px;
 }
 
 /* Make any top-level iframe fill the remaining space between header and footer */

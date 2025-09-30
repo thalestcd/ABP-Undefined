@@ -126,6 +126,10 @@ a{
     text-decoration: none;
 }
 
+.contatos {
+    display: flex;
+}
+
 .languageButton{
     transform: scale(0.7);
 }
