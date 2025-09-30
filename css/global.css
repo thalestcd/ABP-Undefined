@@ -147,10 +147,13 @@ width: 900px;
 /* Link */
 
 a{
-    color: var(--text-base-color);
+    /* color: var(--text-base-color); */
     text-decoration: none;
 }
 
+footer a{
+    color: var(--text-base-color);
+}
 
 
 .languageButton{
