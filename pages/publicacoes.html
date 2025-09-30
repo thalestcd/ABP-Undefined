@@ -1,4 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriRS</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <script src="/javascripts/layout.js" defer></script>
+    <script src="https://kit.fontawesome.com/5e96e72d2d.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Itim&family=Jacquard+24&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24
+        }
+    </style>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward_ios" />
+</head>
 
 <body>
-    <div>teste P</div>    
+
+    <div id="header-socket"></div>
+
+    <div class="container">
+        <p class="title">Publicações</p>
+        <div class="main-content">
+            <aside class="sidebar">
+                <div class="filter">
+                    <select>
+                        <option>Ano</option>
+                        <option>2025</option>
+                        <option>2024</option>
+                    </select>
+                    <input type="text" placeholder="Pesquisar">
+                </div>
+                <div class="other-publications">
+                    <div class="publication-card">
+                        <img src="img/pub3.png" alt="Publicação 3">
+                        <h3>Publicação 3</h3>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+                    </div>
+                    <div class="publication-card">
+                        <img src="img/pub4.png" alt="Publicação 4">
+                        <h3>Publicação 4</h3>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+                    </div>
+                </div>
+            </aside>
+            <!-- Publicação principal (direita) -->
+            <section class="publication-detail">
+                <h2>Monitoramento Fenológico de Cultivos por Sensoriamento Remoto</h2>
+                <span class="pub-date">Sep 18, 2025</span>
+                <img src="img/main-publication.png" alt="Monitoramento Fenológico">
+                <h3>Extração de métricas sazonais a partir de imagens de satélite para análise do ciclo de crescimento das plantas</h3>
+                <p>
+                    A publicação apresenta um fluxo de trabalho para acompanhar o desenvolvimento das culturas agrícolas utilizando dados de sensoriamento remoto...
+                </p>
+            </section>
+        </div>
+    </div>
+
+    <div id="footer-socket"></div>
+
+
 </body>
+
+</html>
