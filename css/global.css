@@ -1,0 +1,164 @@
+/* *{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+} */
+
+body{
+    /* display: flex; */
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Kanit";
+    overflow-x: hidden;
+}
+
+
+/*////////// Header - > ///////////////////////////////////////////*/
+
+.header > nav {
+    display: flex;
+    justify-content: row;
+    justify-content: space-between;
+
+}
+
+header{
+      display: flex;
+    justify-content: center;
+    
+    /* background-color:#2E6A50; */
+    background-image: linear-gradient(180deg, #2E6A50 0%, #41C089 73%);
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.header{
+    width: 900px;
+}
+
+
+.headerTop{
+    display: flex;
+}
+
+.agrirslab{
+    text-align: start;
+}
+
+.arsl{
+margin-bottom: 10px;
+
+
+}
+
+.title{
+    margin-left: 30px;
+}
+
+.logo{
+    margin-top: 20px;
+    transform: scale(1.2);
+}
+
+header nav .menu-button{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    transition: 200ms;
+}
+
+header nav .menu-button:hover{
+    color: var(--light-blue-color);
+
+}
+
+/* Container -> ///////////////////////////////////////*/
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.container > *{
+    width: 900px;
+}
+
+.container > section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* footer //////////////////// */
+
+footer{
+display: flex;
+justify-content: space-around;
+background-image: linear-gradient(180deg, #154430 0%, #3F936E 100%);
+color: white;
+padding: 30px;
+
+}
+
+.footer{
+display: flex;
+justify-content: space-between;
+width: 900px;
+
+
+}
+
+
+#footer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: x-large;
+}
+
+
+
+#footer1 div a{
+    margin: 0.6rem;
+    transition: 200ms;
+}
+
+#footer1 div a:hover{
+    color: blue;
+}
+
+#footer3{
+    display: flex;
+    align-items: column;
+    width: 300px;
+}
+
+
+/* Link */
+
+a{
+    /* color: var(--text-base-color); */
+    text-decoration: none;
+}
+
+.contatos {
+    display: flex;
+}
+
+footer a{
+    color: var(--text-base-color);
+}
+
+
+.languageButton{
+    height: 55px;
+}
