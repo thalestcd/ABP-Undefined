@@ -163,3 +163,19 @@ footer a{
 .languageButton{
     height: 55px;
 }
+
+
+
+
+/* SOBRE */
+
+.cor{
+    background-color: #3F936E;
+    width: 70vw;
+    height: 1000vh;
+}
+
+.sobrebox{
+    display: flex;
+
+}
