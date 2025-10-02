@@ -15,16 +15,12 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    /* align-items: flex-end; */
     justify-content: flex-end;
     background-color: #2E6A50;
     height: 300px;
     width: 200px;
-    /* border: solid; */
     border-radius: 10px;
-    /* margin: 20px; */
-    transition: 200ms;
-    /* background-image: url(/public/img/Figura_A2_NS.png); */
+    transition: transform 200ms ease-in;
     background-size: cover;
     color: white;
     font-size: small;
@@ -66,7 +62,6 @@
     height: 100px;
     overflow-y: scroll;
     scrollbar-color: #3F936E;
-    /* padding: 10px; */
 }
 
 .cardText p {
@@ -106,7 +101,6 @@
     background-color: #2E6A50;
     height: 100px;
     width: 75px;
-    /* border: solid; */
     border-radius: 10px;
     display: flex;
     margin: 20px;
