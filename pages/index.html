@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AgriRS</title>
+    <link rel="stylesheet" href="../css/vars.css">
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/paginainicial.css">
-    <link rel="stylesheet" href="../css/vars.css">
     <link rel="stylesheet" href="../css/button.css">
+    <link rel="stylesheet" href="../css/cards.css">
     <script src="/javascripts/layout.js" defer></script>
     <script src="https://kit.fontawesome.com/5e96e72d2d.js" crossorigin="anonymous" defer></script>
     <!-- <link
@@ -34,18 +34,30 @@
     <div class="container">
         <div>
             <div class="carrosel">
+                 <img src="/public/img/imagemCarroselNoticia.png" alt="">
+                <div class="arrow">
+                    <span class="material-symbols-outlined" id="leftArrowNews">
+                        arrow_forward_ios
+                    </span>
+                </div>
+
+                 <div class="arrow rightArrow">
+                    <span class="material-symbols-outlined" id="rightArrowNews">
+                        arrow_forward_ios
+                    </span>
+                </div>
+                
                 <div class="carroselText">
                     <h3>Sistemas de Irrigação Inteligente Economizam até 50% de Água</h3>
-                    <p>Tecnologia que combina sensores de umidade do solo e dados meteorológicos está revolucionando a forma como a agricultura utiliza recursos hídricos.</p>
+                    <p>Tecnologia que combina sensores de umidade do solo e dados meteorológicos está revolucionando a
+                        forma como a agricultura utiliza recursos hídricos.</p>
                     <div>
 
                     </div>
                 </div>
-<<<<<<< HEAD
-            
-=======
-     
->>>>>>> dc706b78cc96107bdc1ce190542c38943d5a370c
+
+               
+                
             </div>
 
         </div>
@@ -56,25 +68,28 @@
             </div> -->
             <button type="button">Mais Notícias</button>
             <h2>PROJETOS</h2>
-            <div class="cardsProjetos">
+            <div class="cardsBox">
                 <!-- <div class="slider"> -->
-                    <div class="PROJETOScard" id="PROJETOScard1">
-                        <div class="cardText">
-                            <p>Estimativa do Percentual de Cobertura do Solo por Resíduos Culturais através de Sensoriamento Remoto Orbital</p>
-                        </div>
+                <div class="card cardWide" id="PROJETOScard1">
+                    <img src="/public/img/Figura_A2_NS.png" alt="">
+                    <div class="cardText">
+                        <p>Estimativa do Percentual de Cobertura do Solo por Resíduos Culturais através de Sensoriamento
+                            Remoto Orbital</p>
                     </div>
-                    <!-- <div class="PROJETOScard" id="PROJETOScard2">
+                </div>
+                <!-- <div class="PROJETOScard" id="PROJETOScard2">
                         <div class="cardText">
                             <h4>Projetos 2</h4>
                         </div>
-                    </div> -->                  
-                    <div class="PROJETOScard" id="PROJETOScard3">
-                        <div class="cardText">
-                            <p>Detecção de Desmatamento e Cicatriz de Fogo no Cerrado via Redes Neurais Artificiais.</p>
-                        </div>
+                    </div> -->
+                <div class="card cardWide" id="PROJETOScard3">
+                    <img src="/public/img/Figura_P2_MG.JPG" alt="">
+                    <div class="cardText">
+                        <p>Detecção de Desmatamento e Cicatriz de Fogo no Cerrado via Redes Neurais Artificiais.</p>
                     </div>
+                </div>
                 <!-- </div> -->
-               
+
             </div>
             <!-- <div class="slidernav">
                 <a href="#PROJETOScard1"></a>
@@ -84,20 +99,26 @@
         </section>
         <section>
             <h2>PUBLICAÇÕES</h2>
-            <div class="cardsPublicacoes">
-                <div class="PUBLICACOEScard" id="PUBLICACOEScard1">
+            <div class="cardsBox">
+                <div class="card" id="PUBLICACOEScard1">
+                    <img src="/public/img/Figura_A2_NS.png" alt="">
                     <div class="cardText">
-                        <p>Sugarcane Yield Estimation Using Satellite Remote Sensing Data in Empirical or Mechanistic Modeling: A Systematic Review.</p>
+                        <p>Sugarcane Yield Estimation Using Satellite Remote Sensing Data in Empirical or Mechanistic
+                            Modeling: A Systematic Review.</p>
                     </div>
                 </div>
-                <div class="PUBLICACOEScard" id="PUBLICACOEScard2">
-                    <div class="cardText">
-                        <p>Growth behavior of irrigated rice according to different indices, sensors, and stages of the growth cycle.</p>
+                    <div class="card" id="PUBLICACOEScard2">
+                        <img src="/public/img/Figura_A7_AG.png" alt="">
+                        <div class="cardText">
+                        <p>Growth behavior of irrigated rice according to different indices, sensors, and stages of the
+                            growth cycle.</p>
                     </div>
                 </div>
-                <div class="PUBLICACOEScard" id="PUBLICACOEScard3">
+                <div class="card" id="PUBLICACOEScard3">
+                    <img src="/public/img/Figura_AC1_PS.png" alt="">
                     <div class="cardText">
-                        <p>Avaliação do uso e cobertura da terra no Mato Grosso entre 1985-2020: mudanças associadas à expansão agropecuária e supressão de áreas florestais</p>
+                        <p>Avaliação do uso e cobertura da terra no Mato Grosso entre 1985-2020: mudanças associadas à
+                            expansão agropecuária e supressão de áreas florestais</p>
                     </div>
                 </div>
             </div>
@@ -106,45 +127,52 @@
         <section>
             <h2>EQUIPE</h2>
             <div class="equipeCarrosel">
-                <span class="material-symbols-outlined" id="leftArrow">
+                <span class="material-symbols-outlined setasEquipe" id="leftArrow">
                     arrow_forward_ios
                 </span>
-                <div class="card" id="cardEquipe1">
+                <div class="cardEquipeMiniatura" id="cardEquipe1">
+                    <img src="/public/img/equipe/Andre_Garcia.jpeg" alt="">
                     <div class="cardTextEquipe">
-                        <!-- <h4>Equipe 1</h4> -->
+                        <p>André Garcia</p>
                     </div>
                 </div>
-                <div class="card" id="cardEquipe2">
+                <div class="cardEquipeMiniatura" id="cardEquipe2">
+                    <img src="/public/img/equipe/Cleverton_Santana.jpeg" alt="">
                     <div class="cardTextEquipe" >
-                        <!-- <h4>Equipe 1</h4> -->
+                        <p>Cleverton Santana</p>
                     </div>
                 </div>
-                <div class="card" id="cardEquipe3">
+                <div class="cardEquipeMiniatura" id="cardEquipe3">
+                    <img src="/public/img/equipe/Darlan_Teles.jpeg" alt="">
                     <div class="cardTextEquipe">
-                        <!-- <h4>Equipe 1</h4> -->
+                        <p>Darlan Teles</p>
                     </div>
                 </div>
-                <div class="card" id="cardEquipe4">
+                <div class="cardEquipeMiniatura" id="cardEquipe4">
+                    <img src="/public/img/equipe/Gabriel_Sansigolo.jpeg" alt="">
                     <div class="cardTextEquipe">
-                        <!-- <h4>Equipe 1</h4> -->
+                        <p>Gabriel Sansigolo</p>
                     </div>
                 </div>
-                <div class="card" id="cardEquipe5">
+                <div class="cardEquipeMiniatura" id="cardEquipe5">
+                    <img src="/public/img/equipe/Grazieli_Rodigheri.jpeg" alt="">
                     <div class="cardTextEquipe">
-                        <!-- <h4>Equipe 1</h4> -->
+                        <p>Grazieli Rodigheri</p>
                     </div>
                 </div>
-                <div class="card" id="cardEquipe6">
+                <div class="cardEquipeMiniatura" id="cardEquipe6">
+                    <img src="/public/img/equipe/Lorrany_Colegnac.jpg" alt="">
                     <div class="cardTextEquipe">
-                        <!-- <h4>Equipe 1</h4> -->
+                        <p>Lorrany Colegnac</p>
                     </div>
                 </div>
-                <div class="card" id="cardEquipe7">
+                <div class="cardEquipeMiniatura" id="cardEquipe7">
+                    <img src="/public/img/equipe/Marcos_Adami.jpg" alt="">
                     <div class="cardTextEquipe">
-                        <!-- <h4>Equipe 1</h4> -->
+                        <p>Marcos Adami</p>
                     </div>
                 </div>
-                <span class="material-symbols-outlined">
+                <span class="material-symbols-outlined setasEquipe">
                     arrow_forward_ios
                 </span>
             </div>
@@ -170,8 +198,7 @@
                         <form action="" method="post">
                             <textarea name="textarea" id="" placeholder="Assunto..."></textarea>
                     </div>
-
-
+                    
                     </form>
                     <div class="buttonForm">
                         <button type="submit">ENVIAR</button>
@@ -179,6 +206,16 @@
 
                 </div>
 
+            </div>
+        </section>
+        <section>
+            <h2>COLABORADORES</h2>
+            <div class="areaColaboradores">
+              <div class="colabBox">
+                <img src="/public/img/colaboradores/capesLogo.png" alt=""><img src="/public/img/inpeLogo.png" alt=""><img src="/public/img/colaboradores/conabLogo.png" alt="">
+            </div>
+              <div class="colabBox">
+                <img src="/public/img/colaboradores/cnpqLogo.png" alt=""><img src="/public/img/colaboradores/fapespLogo.png" alt=""><img src="/public/img/colaboradores/brazil-data-cube.png" alt=""></div>
             </div>
         </section>
     </div>

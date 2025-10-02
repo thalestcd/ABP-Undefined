@@ -1,0 +1,58 @@
+/* ========= Layout "Faça Parte" ========= */
+
+/* layout padrão: texto à esquerda, imagem à direita */
+body.facaparte .container section {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+  background: #d9efe2; /* agora o fundo da faixa inteira */
+}
+
+/* Texto */
+body.facaparte .container section .texto {
+  flex: 1;
+  padding: 20px;
+  background: transparent; /* deixa transparente, pega o fundo do section */
+  text-align: left;
+}
+
+/* Imagem */
+body.facaparte .container section img {
+  flex: 1;
+  max-width: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+/* alterna lado apenas nas sections pares (2, 4, 6...) */
+body.facaparte .container section:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+/* Remove marcadores da lista nas sections */
+body.facaparte .container section ul {
+  list-style: none;     /* remove os pontinhos */
+  padding: 0;           /* tira o recuo lateral */
+  margin: 0;            /* tira a margem extra */
+}
+
+body.facaparte .container section li {
+  margin-bottom: 10px;  /* espaçamento entre os itens */
+}
+
+/* Responsivo: no celular volta a ser coluna */
+@media (max-width: 768px) {
+  body.facaparte .container section {
+    flex-direction: column;
+  }
+
+  body.facaparte .container section img {
+    max-width: 100%;
+  }
+}
