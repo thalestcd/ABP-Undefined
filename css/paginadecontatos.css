@@ -1,0 +1,21 @@
+.contatos{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    max-width: 2000px;
+}
+
+.card{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    margin: 80px 0px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+}
+
+.map iframe{
+    width: 100%;
+}
