@@ -12,7 +12,7 @@ body {
 }
 
 p {
-    margin: 0;
+  margin: 0;
 }
 /* Header */
 .header>nav {
@@ -31,15 +31,16 @@ header {
 }
 
 .header {
-    width: 900px;
+  position: relative;
+  width: 900px;
 }
 
 .headerTop {
-    display: flex;
+  display: flex;
 }
 
 .agrirslab {
-    text-align: start;
+  text-align: start;
 }
 
 .arsl {
@@ -47,20 +48,19 @@ header {
 }
 
 .title {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 .logo {
-    margin-top: 20px;
-    transform: scale(1.2);
+  margin-top: 20px;
 }
 
 header nav .menu-button {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-    transition: 200ms;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  transition: 200ms;
 }
 
 header nav .menu-button:hover {
@@ -83,16 +83,15 @@ header {
 }
 
 .header {
-    width: 900px;
+  width: 900px;
 }
 
-
 .headerTop {
-    display: flex;
+  display: flex;
 }
 
 .agrirslab {
-    text-align: start;
+  text-align: start;
 }
 
 .arsl {
@@ -100,10 +99,58 @@ header {
 }
 
 .title {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 .logo a {
+  display: flex;
+  align-self: center;
+  /* align-self: center; */
+  margin-top: 10px;
+  width: 80px;
+  aspect-ratio: 1;
+
+  /* transform: scale(1.2); */
+}
+
+.languageButton {
+  position: absolute;
+  height: 40px;
+  width: 70px;
+  right: 0px;
+  bottom: 0.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+  /* Header Responsivo */
+  header{
+    width: 100vw;
+  }
+
+  .header {
+    width: 900px;
+  }
+  .logo a {
+    width: 4.5rem;
+    aspect-ratio: 1;
+  }
+  .logo {
+    margin: 0;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15rem;
+    margin-left: 0px;
+    height: 102px;
+    text-align: left;
+  }
+  .agrirslab {
+    text-align: center;
+  }
+  .headerTop {
     display: flex;
     align-self: center;
     margin-top: 10px;
@@ -116,20 +163,34 @@ header {
     width: 70px;
 }
 
-.languageChangeIcon {
+#assuntoBox>form {
+    height: 60px;
+
+
+}
+
+.formSection h2{
+    font-size: large;
+}
+
+.formSection p{
+    font-size: small;
+}
+
+.formSection button{
     display: flex;
 }
 
 /* Interactivity Nav */
 
 .sobre {
-    position: relative;
-    display: flex;
+  position: relative;
+  display: flex;
 }
 
 .atuacao {
-    position: relative;
-    display: flex;
+  position: relative;
+  display: flex;
 }
 
 .submenu {
@@ -146,38 +207,46 @@ header {
 }
 
 .submenuAtuacao {
-    position: absolute;
-    display: none;
-    flex-direction: column;
-    z-index: 10;
-    top: 30px;
-    background-color: #5fbb93;
-    width: 130px;
-    font-size: small;
-    transition: 200ms;
-    text-align: start;
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  z-index: 10;
+  top: 30px;
+  background-color: #5fbb93;
+  width: 130px;
+  font-size: small;
+  transition: 200ms;
+  text-align: start;
 }
 
 .submenu a {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.submenu a:hover {
+  color: var(--light-blue-color);
 }
 
 .submenuAtuacao a {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.submenuAtuacao a:hover {
+  color: var(--light-blue-color);
 }
 
 .sobre:hover .submenu {
-    display: flex;
-    transform: scale(1);
+  transform: scale(1);
+  display: flex;
 }
 
 .atuacao:hover .submenuAtuacao {
-    display: flex;
-    transform: scale(1);
+  display: flex;
+  transform: scale(1);
 }
 
 .arrow-down {
@@ -194,7 +263,6 @@ header {
 
 /* Container */
 
-
 .container {
     display: flex;
     flex-direction: column;
@@ -207,10 +275,10 @@ header {
     width: 1000px;
 }
 
-.container>section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.container > section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
@@ -218,46 +286,40 @@ header {
 /* footer */
 
 footer {
-    display: flex;
-    justify-content: space-around;
-    background-image: linear-gradient(180deg, #154430 0%, #3F936E 100%);
-    color: white;
-    padding: 30px;
-    width: 100vw;
-
+  display: flex;
+  justify-content: space-around;
+  background-image: linear-gradient(180deg, #154430 0%, #3f936e 100%);
+  color: white;
+  padding: 30px;
+  width: 100vw;
 }
 
 .footer {
-    display: flex;
-    justify-content: space-between;
-    width: 900px;
-
-
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
 }
-
 
 #footer1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    font-size: x-large;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: x-large;
 }
 
-
-
 #footer1 div a {
-    margin: 0.6rem;
-    transition: 200ms;
+  margin: 0.6rem;
+  transition: 200ms;
 }
 
 #footer1 div a:hover {
-    color: blue;
+  color: blue;
 }
 
 #footer3 {
-    display: flex;
-    align-items: column;
-    width: 300px;
+  display: flex;
+  align-items: column;
+  width: 300px;
 }
 
 /* Ensure dynamically-inserted footer stays at the bottom of the page */
@@ -270,25 +332,20 @@ footer {
 /* Link */
 
 a {
-    /* color: var(--text-base-color); */
-    text-decoration: none;
+  /* color: var(--text-base-color); */
+  text-decoration: none;
 }
 
-footer a{
-    color: var(--text-base-color);
+footer a {
+  color: var(--text-base-color);
 }
-
-
-
-
-
 
 /* SOBRE */
 
 .cor {
-    background-color: #3F936E;
-    width: 70vw;
-    height: 1000vh;
+  background-color: #3f936e;
+  width: 70vw;
+  height: 1000vh;
 }
 
 .sobrebox {
