@@ -1,34 +1,33 @@
-/* *{
- margin: 0;
- padding: 0;
- box-sizing: border-box;
-} */
 
 body {
-  /* display: flex; */
-  padding: 0;
-  margin: 0;
-  text-align: center;
-  width: 100vw;
-  height: 100vh;
-  font-family: "Kanit";
-  overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Kanit";
+    overflow-x: hidden;
 }
 
 p {
   margin: 0;
 }
-
-/*////////// Header - > ///////////////////////////////////////////*/
+/* Header */
+.header>nav {
+    display: flex;
+    justify-content: row;
+    justify-content: space-between;
+}
 
 header {
-  display: flex;
-  justify-content: center;
-
-  /* background-color:#2E6A50; */ 
-  background-image: linear-gradient(180deg, #2e6a50 0%, #41c089 73%);
-  color: white;
-  text-shadow: 2px 2px 2px black;
+    display: flex;
+    justify-content: center;
+    /* background-color:#2E6A50; */
+    background-image: linear-gradient(180deg, #2E6A50 0%, #41C089 73%);
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
 
 .header {
@@ -45,7 +44,7 @@ header {
 }
 
 .arsl {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .title {
@@ -65,28 +64,22 @@ header nav .menu-button {
 }
 
 header nav .menu-button:hover {
-  color: var(--light-blue-color);
+    color: var(--light-blue-color);
 }
 
-.header > nav {
-  display: flex;
-  justify-content: row;
-  justify-content: space-around;
-  justify-content: flex-start;
-}
-
-.menu-button {
-  margin: 1rem;
+.header>nav {
+    display: flex;
+    justify-content: row;
+    justify-content: space-between;
 }
 
 header {
-  display: flex;
-  justify-content: center;
-
-  /* background-color:#2E6A50; */
-  background-image: linear-gradient(180deg, #2e6a50 0%, #41c089 73%);
-  color: white;
-  text-shadow: 2px 2px 2px black;
+    display: flex;
+    justify-content: center;
+    /* background-color:#2E6A50; */
+    background-image: linear-gradient(180deg, #2E6A50 0%, #41C089 73%);
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
 
 .header {
@@ -102,7 +95,7 @@ header {
 }
 
 .arsl {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .title {
@@ -159,122 +152,15 @@ header {
   }
   .headerTop {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-around;
-  }
-
-  .headerTop h1 {
-    font-size: larger   ;
-    text-align: left;
-  }
-  .headerTop p {
-    font-size: x-small;
-  }
-
-  nav {
-    display: flex;
-    justify-content: center;
-    font-size: 0.7rem;
-  }
-  nav .menu-button {
-    max-width: 2.5rem;
-  }
-  .languageButton {
-    width: 2rem;
+    align-self: center;
+    margin-top: 10px;
+    width: 80px;
     aspect-ratio: 1;
-    object-fit: contain;
-    transform: rotate(90deg);
-  }
-  .title h1 {
-    margin: 0;
-  }
+}
 
-  .arsl {
-    margin: 0;
-  }
-
-  /* Container Responsivo */
-
-  .container > * {
-    max-width: 400px;
-  }
-
-  /* Carrosel */
-
-  .carrosel p {
-    display: none;
-  }
-
-
-  /* Cards */
-
-
-   
-   .cardsBox{
-     justify-content: space-around;
-   }
-
-
-  .card{
-    width: 6rem;
-    height: 10rem;
-  }
-  
-  .cardWide{
-    width: 10rem;
-  }
-
-
-  /* Carrosel Equipe */
-
-  .equipeCarrosel{
-    max-width: 380px;
-    margin-bottom: 50px;
-  } 
-
-  .cardEquipeMiniatura{
-    width: 30px;
+.languageButton {
     height: 40px;
-    margin: 10px;
-  }
-
-  .cardTextEquipe{
-    font-size: 0.3rem;
-  }
-  
-  .setasEquipe{
-    display: none;
-    margin-top: 1rem;
-  }
-
-  /* Area de formulario */
-
-  .formSection{
-    max-width: 380px;
-  }
-
-  .map img{
-    width: 180px;
-    height: 200px;
-  }
-
-  .form{
-    width: 10rem;
-  }
-
-  form>input,
-textarea {
-    width: 100%;
-    /* border: solid 1px;
-    border-radius: 5px; */
-    border: none;
-    padding: 7px;
-    border-radius: 3px;
-    /* box-shadow: inset 3px 4px 4px rgba(200, 200, 200, 0.5); */
-    border-bottom: 1px solid rgba(200, 200, 200, 0.9);
-    font-family: inherit;
-
+    width: 70px;
 }
 
 #assuntoBox>form {
@@ -293,39 +179,9 @@ textarea {
 
 .formSection button{
     display: flex;
-    align-items: center;
-    width: 60px;
-    height: 10px;
-    font-size: xx-small;
-    margin-top: 0px;
-    
 }
 
-/* Area de colaboradores */
-
-.areaColaboradores{
-    max-width: 380px;
-}
-
-.colabBox img {
-    width: 4rem;
-    margin: 1rem;
-    object-fit: contain;
-    
-     
-}
-
-/* Footer*/
-
-
-
-}
-
-.languageChangeIcon {
-  display: flex;
-}
-
-/* Interatividade Nav */
+/* Interactivity Nav */
 
 .sobre {
   position: relative;
@@ -338,17 +194,16 @@ textarea {
 }
 
 .submenu {
-  position: absolute;
-  display: none;
-  flex-direction: column;
-  z-index: 10;
-  top: 30px;
-  /* background-image: linear-gradient(90deg, #2E6A50 0%, #41C089 73%); */
-  background-color: #5fbb93;
-  width: 130px;
-  font-size: small;
-  text-align: start;
-  transition: 200ms;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    z-index: 10;
+    top: 30px;
+    background-color: #5fbb93;
+    width: 130px;
+    font-size: small;
+    transition: 200ms;
+    text-align: start;
 }
 
 .submenuAtuacao {
@@ -395,27 +250,29 @@ textarea {
 }
 
 .arrow-down {
-  display: flex;
-  align-items: center;
-  width: 0px;
-  border: none;
-  border-top: 5px solid #fff;
-  border-left: 5px solid rgba(0, 0, 0, 0);
-  border-right: 5px solid rgba(0, 0, 0, 0);
-  margin-left: 8px;
+    display: flex;
+    align-items: center;
+     width:0px;
+     border:none;
+     border-top:5px solid #fff;
+     border-left:5px solid rgba(0,0,0,0);
+     border-right:5px solid rgba(0,0,0,0);
+     margin-left: 8px;
 }
 
-/* Container -> ///////////////////////////////////////*/
+
+/* Container */
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    flex: 1 0 auto; /* allow container to grow and push footer to bottom */
 }
 
-.container > * {
-  width: 1000px;
+.container>* {
+    width: 1000px;
 }
 
 .container > section {
@@ -424,7 +281,9 @@ textarea {
   align-items: center;
 }
 
-/* footer //////////////////// */
+
+
+/* footer */
 
 footer {
   display: flex;
@@ -463,6 +322,13 @@ footer {
   width: 300px;
 }
 
+/* Ensure dynamically-inserted footer stays at the bottom of the page */
+#footer-socket footer {
+    margin-top: auto;
+    width: 100%;
+}
+
+
 /* Link */
 
 a {
@@ -483,5 +349,74 @@ footer a {
 }
 
 .sobrebox {
-  display: flex;
+    display: flex;
+
+}
+
+/* Adicione ao global.css */
+.main-content {
+    display: flex;
+    gap: 40px;
+    margin-top: 32px;
+}
+
+.sidebar {
+    width: 320px;
+    background: #f6fff6;
+    padding: 16px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    overflow: auto; 
+    max-height: calc(100vh - 0px);
+}
+
+.filter {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.other-publications {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.publication-card {
+    background: #e6ffe6;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+}
+
+.publication-card img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
+
+.publication-detail {
+    flex: 1;
+    background: #fff;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px #0001;
+    min-height: 300px; /* define baseline height so page limits are based on this column */
+}
+
+.publication-detail img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 16px 0;
+    border-radius: 8px;
+}
+
+.pub-date {
+    float: right;
+    color: #888;
+    font-size: 0.95em;
 }
