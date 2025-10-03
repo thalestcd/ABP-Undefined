@@ -231,12 +231,21 @@ header {
 /* footer //////////////////// */
 
 footer {
+<<<<<<< HEAD
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(180deg, #154430 0%, #3F936E 100%);
+    color: white;
+    padding: 30px;
+    width: 100vw;
+=======
   display: flex;
   justify-content: space-around;
   background-image: linear-gradient(180deg, #154430 0%, #3f936e 100%);
   color: white;
   padding: 30px;
   width: 100vw;
+>>>>>>> 19526c4eae26944fa932a7894c43d7587701b04a
 }
 
 .footer {
