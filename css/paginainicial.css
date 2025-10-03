@@ -153,7 +153,7 @@ textarea {
 
 /* Area de colaboradores */
 
-.areaColaboradores {
+.areaColaboradores{
     display: flex;
     flex-direction: column;
 }
@@ -169,6 +169,7 @@ textarea {
 .colabBox {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
 }
 
